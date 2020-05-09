@@ -23,7 +23,7 @@
     => "insert into student values(4, "Mohini");
     => "insert into student values(?,?);
     
-    Connection con = DriverManagergetConnection(url, username, password);
+    Connection con = DriverManager.getConnection(url, username, password);
 
 4. Create the Statement
     Statement st = con.createStatement();
